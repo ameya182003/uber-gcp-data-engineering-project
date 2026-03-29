@@ -1,35 +1,36 @@
-# End-to-End Uber Data Engineering Pipeline on GCP
+# Scalable Uber Data Analytics ETL Pipeline on Google Cloud Platform
 
 ## Introduction
 
-The goal of this project is to perform data analytics on Uber data using various tools and technologies, including GCP Storage, Python, Compute Instance, Mage Data Pipeline Tool, BigQuery, and Looker Studio.
+This project builds a scalable end-to-end ETL pipeline on Google Cloud Platform to process and analyze Uber trip data. It performs data ingestion, transformation, and loading into BigQuery, enabling efficient querying and visualization through Looker Studio.
 
 ## Architecture 
 <img src="Architecture.jpg">
 
-## Technology Used
-- Programming Language - Python
+## Data Model
+<img src="Data Model.png">
 
-Google Cloud Platform
-1. Google Storage
-2. Compute Instance 
-3. BigQuery
-4. Looker Studio
+## ETL Pipeline
+Extract: Ingested raw CSV data into Google Cloud Storage
+Transform: Cleaned and structured data using Python and Mage
+Load: Loaded transformed data into BigQuery
 
-Modern Data Pipeine Tool - https://www.mage.ai/
-
-Contibute to this open source project - https://github.com/mage-ai/mage-ai
-
+## Tech Stack
+Python
+Google Cloud Platform (GCS, Compute Engine, BigQuery)
+Mage
+Looker Studio
 
 ## Dataset Used
 TLC Trip Record Data
 Yellow and green taxi trip records include fields capturing pick-up and drop-off dates/times, pick-up and drop-off locations, trip distances, itemized fares, rate types, payment types, and driver-reported passenger counts. 
 
-Here is the dataset used in the video - https://github.com/darshilparmar/uber-etl-pipeline-data-engineering-project/blob/main/data/uber_data.csv
+Website - https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
+Data Dictionary - https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf
 
-More info about dataset can be found here:
-1. Website - https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
-2. Data Dictionary - https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf
+## Key Learnings
+Built and understood end-to-end ETL pipeline architecture
+Gained hands-on experience with GCP services (GCS, Compute Engine, BigQuery)
+Learned workflow orchestration using Mage
+Improved data cleaning, transformation, and data modeling skills
 
-## Data Model
-<img src="Data Model.png">
