@@ -1,4 +1,4 @@
-# Uber Data Analytics | Modern Data Engineering GCP Project
+# End-to-End Uber Data Engineering Pipeline on GCP
 
 ## Introduction
 
@@ -32,4 +32,4 @@ More info about dataset can be found here:
 2. Data Dictionary - https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf
 
 ## Data Model
-<img src="Data Model.jpeg">
+<img src="Data Model.png">
