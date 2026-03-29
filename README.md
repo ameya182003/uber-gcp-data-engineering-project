@@ -1,4 +1,4 @@
-# Designed Uber Data Analytics ETL Pipeline on Google Cloud Platfor
+# Uber Data Analytics ETL Pipeline on Google Cloud Platform
 
 ## Introduction
 
